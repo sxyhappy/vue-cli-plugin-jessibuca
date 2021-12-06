@@ -1,0 +1,27 @@
+{
+  "name": "vue-cli-plugin-jessibuca",
+  "version": "0.0.1",
+  "description": "jessibuca video plugin for vue-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sxyhappy/vue-cli-plugin-jessibuca.git"
+  },
+  "keywords": [
+    "plugin",
+    "vue",
+    "jessibuca"
+  ],
+  "author": "sxyhappy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sxyhappy/vue-cli-plugin-jessibuca/issues"
+  },
+  "homepage": "https://github.com/sxyhappy/vue-cli-plugin-jessibuca#readme",
+  "dependencies": {
+    "jessibuca": "git+https://github.com/langhuihui/jessibuca.git"
+  }
+}
