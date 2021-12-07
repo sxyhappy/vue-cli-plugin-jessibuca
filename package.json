@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/sxyhappy/vue-cli-plugin-jessibuca#readme",
   "dependencies": {
+    "html-webpack-tags-plugin": "2",
     "jessibuca": "git+https://github.com/langhuihui/jessibuca.git"
   }
 }
