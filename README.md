@@ -1,3 +1,9 @@
-# jessibuca 播放器 vue 插件
+# jessibuca 播放器 vue-cli 插件
 
-jessibuca 没有提供 npm package,只能通过 script 方式提供,所以使用 vue-cli 插件形式提供 jessibuca 引入
+jessibuca 没有提供 npm package,只能通过 script 方式引入,所以使用 vue-cli 插件形式自动引入 jessibuca
+
+插件会自动在 html 插入 index.js 的 script 标签,所以可以在代码中直接使用 Jessibuca 全局变量
+
+```js
+const instance = new Jessibuca({})
+```
