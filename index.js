@@ -9,9 +9,9 @@ module.exports = (api, options) => {
       .plugin('copy')
       .tap(([config]) => {
         const c = config.concat([
-          { from: path.resolve(direction, './demo/public/index.js'), to: '' },
-          { from: path.resolve(direction, './demo/public/ff.js'), to: '' },
-          { from: path.resolve(direction, './demo/public/ff.wasm'), to: '' },
+          { from: path.resolve(direction, './dist/jessibuca.js'), to: '' },
+          { from: path.resolve(direction, './dist/decoder.js'), to: '' },
+          { from: path.resolve(direction, './dist/decoder.wasm'), to: '' },
         ])
         return [c];
       })
@@ -20,7 +20,7 @@ module.exports = (api, options) => {
       .plugin('tag')
       .use(HtmlWebpackTagsPlugin, [
         {
-          tags: ['index.js'],
+          tags: ['jessibuca.js'],
           append: true
         }
       ])
